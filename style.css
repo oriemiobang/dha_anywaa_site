@@ -46,9 +46,9 @@ header h4 span{
 .download_button{
     background-color: whitesmoke;
     border: none;
-    height: 70px;
-    width: 150px;
-    padding: 3%;
+    height: 50px;
+    width: 250px;
+    padding: 6%;
     
 }
 /* .download_button img {
