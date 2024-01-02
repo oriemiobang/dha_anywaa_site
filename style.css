@@ -73,3 +73,7 @@ h3{
     color:  rgb(10, 10, 35);
     
 }
+.button_image{
+    display: flex;
+    padding: 8%;
+}
