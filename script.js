@@ -9,5 +9,5 @@ function playstoreredirectToLink() {
 var infoContainer = document.getElementById("playstore");
 
 // Display the information container
-alert( 'The app is not availabe on playstore yet\n pls get it from Uptodwon.');
+alert( 'The app is not availabe on playstore yet\n please get it from Uptodwon.');
 }
