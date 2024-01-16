@@ -16,6 +16,7 @@
 
     <title>Dha Anywaa</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@300&display=swap" rel="stylesheet">
@@ -137,20 +138,16 @@
         <p>If you are eager to embark on a journey of learning Dha Anywaa and are ready to take the first step, simply follow the link below to download our app on the Play Store. <br>
              Get ready to unlock a world of language proficiency and cultural richness at your fingertips!</p>
        <figure class="button_image">
-        <button class="download_button">
+        <button onclick="playstoreredirectToLink()" id="playstore" class="download_button">
             <img class="playstore_icon" src="assets/playstore.png" alt="playstore icon" >
         </button>
-        <button onclick="redirectToLink()" class = "download_button">
+        <button onclick="uptoDownredirectToLink()" id="uptodown" class = "download_button">
             <img class="" src="assets/uptodown.png" alt="get it on UptoDown">
         </button>
        </figure>
             <p>If you want to learn more about dha anywaa, there is dedicated channel on youtube called Anywaa Enlightenment that teaches about the anywaa culture, the anwyaa language and more <a target="_blank" href="https://www.youtube.com/@anywaaenlightenment4629">click here</a> to visit</p>
     </div> 
-    <script>
-        function redirectToLink(){
-            var newTab = window.open('https://mandrillapp.com/track/click/31134266/dha-anywaa.en.uptodown.com?p=eyJzIjoiVndwNmFiSHdwZ0w5TU9lV3dDYlVFcHk2VmtNIiwidiI6MSwicCI6IntcInVcIjozMTEzNDI2NixcInZcIjoxLFwidXJsXCI6XCJodHRwczpcXFwvXFxcL2RoYS1hbnl3YWEuZW4udXB0b2Rvd24uY29tXFxcL2FuZHJvaWRcIixcImlkXCI6XCI5NTUzMjc4NWI2OTM0YWQwOGFhNTMwNWZhMjJmNWJkZVwiLFwidXJsX2lkc1wiOltcIjU5OTYxYjAxM2ExZTk4MzBlZjdjNzI0MDEyZjE5ZDdlMjE4ZDkwYzdcIl19In0', '_blnak');
-            newTab.focus();
-        }
+    
     </script>
 
 </body>
