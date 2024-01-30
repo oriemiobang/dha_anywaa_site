@@ -77,3 +77,22 @@ h3{
     display: flex;
     padding: 8%;
 }
+footer a{
+    text-decoration: none;
+    color: white;
+     
+    
+}
+@media screen and (min-width: 769px) {
+
+    .screenshot{
+        width: 30%;
+        padding: 5%;
+    }
+    .boys_and_girls{
+        width: 60%;
+        /* height: 10%; */
+        padding-left: 5%; 
+    }
+
+}
